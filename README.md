@@ -6,5 +6,5 @@
 # Computer Vision Notebooks
 
 
-![banner Creative Commons INCoD UFSC](http://www.lapix.ufsc.br/wp-content/uploads/2019/05/cc.png)
+![banner Creative Commons INCoD UFSC](rodape-CC.png)
 
