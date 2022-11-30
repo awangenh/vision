@@ -6,5 +6,5 @@
 # Computer Vision Notebooks
 
 
-![banner Creative Commons INCoD UFSC](rodape-CC.png)
+![banner Creative Commons INCoD UFSC](rodape-lapix.png)
 
