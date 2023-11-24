@@ -2,11 +2,12 @@ import numpy as np
 from collections import deque
 
 # Implementation of:
-# Pierre Soille, Luc M. Vincent, "Determining watersheds in digital pictures via
+# Pierre Soille, Luc M. Vincent, "Determining Watersheds in digital pictures via
 # flooding simulations", Proc. SPIE 1360, Visual Communications and Image Processing
 # '90: Fifth in a Series, (1 September 1990); doi: 10.1117/12.24211;
 # http://dx.doi.org/10.1117/12.24211
-class Watershed(object):
+#
+class Watershed_SV(object):
    MASK = -2
    WSHD = 0
    INIT = -1
@@ -53,7 +54,8 @@ class Watershed(object):
       current_level = 0
 
       # Get the indices that deleimit pixels with different values.
-      for i in xrange(total):
+      # Changed for i in xrange(total): for the Python 3 usage:
+      for i in range(total):
          if sorted_image[i] > levels[current_level]:
             # Skip levels until the next highest one is reached.
             while sorted_image[i] > levels[current_level]: current_level += 1
@@ -119,7 +121,7 @@ if __name__ == "__main__":
    import matplotlib.pyplot as plt
    from scipy.misc import imsave
 
-   w = Watershed()
+   w = Watershed_SV()
    image = np.array(Image.open(sys.argv[1]))
    labels = w.apply(image)
    imsave('ws.png', labels)
