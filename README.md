@@ -32,13 +32,14 @@ Referências:
 
 Um material didático desta abrangência e com este volume de código e evidentemente não é produto de uma pessoa só, mas sim o resultado da colaboração de muitas pessoas. Quero agradecer e reconhecer em especial a colaboração dos seguintes alunos e colegas:
 
-* Rodrigo de Paula e Silva Ribeiro: ribeiro.rodrigo@posgrad.ufsc.br
-* Luiz Antonio Buschetto Macarini: luiz.buschetto@posgrad.ufsc.br
-* Thiago Zimmermann Loureiro Chaves: thiago.zlc@grad.ufsc.br
-* Nathalie Ferreira: nathalie@incod.ufsc.br
 * André Victória Matias: andre.v.matias@posgrad.ufsc.br
 * Jônata Tyska Carvalho: jonata.tyska@ufsc.br 
 * Mateus Grellert: mateus.grellert@ufsc.br
+* Nathalie Ferreira: nathalie@incod.ufsc.br
+* Luiz Antonio Buschetto Macarini: luiz.buschetto@posgrad.ufsc.br
+* [Rafael de Souza Toledo](https://github.com/tldrafael): rafael.toledo@posgrad.ufsc.br
+* Rodrigo de Paula e Silva Ribeiro: ribeiro.rodrigo@posgrad.ufsc.br
+* Thiago Zimmermann Loureiro Chaves: thiago.zlc@grad.ufsc.br
 
 Aldo von Wangenheim (aldo.vw@ufsc.br)
 
