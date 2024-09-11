@@ -3,3 +3,4 @@ jupyter/RTK/
 jupyter/RoadQualityClassification/
 *.zip
 jupyter/imagenet-sample-images/
+.ipynb_checkpoints/
