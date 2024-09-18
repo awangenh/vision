@@ -4,3 +4,4 @@ jupyter/RoadQualityClassification/
 *.zip
 jupyter/imagenet-sample-images/
 .ipynb_checkpoints/
+jupyter/__pycache__/
