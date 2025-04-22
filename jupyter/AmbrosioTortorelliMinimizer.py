@@ -44,7 +44,7 @@ class AmbrosioTortorelliMinimizer():
 		A = LinearOperator( (size, size), matvec = self.edge_linear_operator, dtype = np.float64)
 		b = np.ones(size) * self.beta / (4 * self.epsilon)
 
-		self.edges, _ = scipy.sparse.linalg.cg(A, b, tol = self.tol, maxiter = self.maxiter)
+		self.edges, _ = scipy.sparse.linalg.cg(A, b, atol = self.tol, maxiter = self.maxiter)
 		self.edges = np.power(self.edges.reshape(*self.g.shape), 2)
 		return self.edges
 
@@ -53,7 +53,7 @@ class AmbrosioTortorelliMinimizer():
 		A = LinearOperator( (size, size), matvec = self.image_linear_operator, dtype = np.float64)
 		b = self.g.reshape(size)
 
-		self.f, _ = scipy.sparse.linalg.cg(A, b, tol = self.tol, maxiter = self.maxiter)
+		self.f, _ = scipy.sparse.linalg.cg(A, b, atol = self.tol, maxiter = self.maxiter)
 		self.f = self.f.reshape(*self.g.shape)
 		self.update_gradients()
 		return self.f
